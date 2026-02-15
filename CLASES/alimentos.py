@@ -8,8 +8,8 @@ class Alimentos:
 
     def imprimir_datos(self):
         print(
-            f"{self.nombre}: {self.calorias} kcal, {self.proteinas} g proteínas, "
-            f"{self.carbohidratos} g carbohidratos, {self.grasas} g grasas"
+            f"Alimento: {self.nombre}, Calorías: {self.calorias} kcal, Proteínas: {self.proteinas} g, "
+            f"Carbohidratos: {self.carbohidratos} g, Grasas: {self.grasas} g."
         )
 
 
